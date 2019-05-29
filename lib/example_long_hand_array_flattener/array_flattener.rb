@@ -8,8 +8,10 @@ module ExampleLongHandArrayFlattener
         if element.is_a?(Array)
           sub_flattened_array = run(element)
           sub_flattened_array.each {|sub_flattened_elem| flattened_array << sub_flattened_elem}
-        else
+        elsif element.is_a?(Integer)
           flattened_array << element
+        else
+          raise ArrayFlattenerError.new("ERROR: Non-Integer element in given array")
         end
       end
       flattened_array
