@@ -15,7 +15,7 @@ if it was ready to ship to production.
 
 Try to avoid using language defined methods like Ruby's Array#flatten.
 
-See also: https://gist.github.com/drhuffman12/370889366be468efb6676220dc9d5dd3
+For a Gistified version, see: https://gist.github.com/drhuffman12/370889366be468efb6676220dc9d5dd3/edit
 
 ## Installation
 
