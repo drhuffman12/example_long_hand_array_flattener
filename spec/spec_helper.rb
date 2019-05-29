@@ -1,4 +1,7 @@
 require "bundler/setup"
+require 'simplecov'
+SimpleCov.start
+
 require "example_long_hand_array_flattener"
 
 RSpec.configure do |config|
