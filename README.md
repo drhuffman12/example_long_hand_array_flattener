@@ -1,8 +1,21 @@
 # ExampleLongHandArrayFlattener
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/example_long_hand_array_flattener`. To experiment with that code, run `bin/console` for an interactive prompt.
+Example code to flatten an array of arbitrarily nested arrays of integers into a flat array of integers (w/out language-provided array flatteners like Ruby's Array#flatten).
 
-TODO: Delete this and the text above, and describe your gem
+PURPOSE:
+
+Write some code, that will flatten an array of arbitrarily nested arrays of integers into a flat array of integers.
+e.g. [[1,2,[3]],4] -> [1,2,3,4]. 
+
+Your solution should be a link to a gist on gist.github.com with your implementation.
+
+When writing this code, you can use any language you're comfortable with. The code must be well tested and documented.
+Please include unit tests and any documentation you feel is necessary. In general, treat the quality of the code as
+if it was ready to ship to production.
+
+Try to avoid using language defined methods like Ruby's Array#flatten.
+
+See also: https://gist.github.com/drhuffman12/370889366be468efb6676220dc9d5dd3
 
 ## Installation
 
