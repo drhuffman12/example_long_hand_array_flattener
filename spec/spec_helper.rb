@@ -3,6 +3,7 @@ require 'simplecov'
 SimpleCov.start
 
 require "example_long_hand_array_flattener"
+require "example_long_hand_array_flattener/array_flattener_spec"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
