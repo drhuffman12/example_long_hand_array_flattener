@@ -35,7 +35,24 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Clone the repo:
+
+```
+cd path/of/your/preference
+git clone https://github.com/drhuffman12/example_long_hand_array_flattener.git
+```
+
+Install the dependancies:
+
+```
+bundle install
+```
+
+Run the tests:
+
+```
+bundle exec rspec
+```
 
 ## Development
 
