@@ -1,5 +1,7 @@
 # ExampleLongHandArrayFlattener
 
+CircleCI status: [![CircleCI](https://circleci.com/gh/drhuffman12/example_long_hand_array_flattener.svg?style=svg)](https://circleci.com/gh/drhuffman12/example_long_hand_array_flattener)
+
 Example code to flatten an array of arbitrarily nested arrays of integers into a flat array of integers (w/out language-provided array flatteners like Ruby's Array#flatten).
 
 PURPOSE:
